@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asini Manisha - Personal Webpage</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #8a2be2;
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #4b0082;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .navbar-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #8a2be2;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .navbar a {
+            color: #fff;
+            margin-right: 20px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .project {
+            margin-bottom: 30px;
+        }
+
+        .project img {
+            max-width: 100%;
+            display: block;
+            margin: 0 auto 10px;
+            border-radius: 5px;
+        }
+        #t1{
+            color: #ffffff;
+        }
+        .about-me {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+        
+        .about-me-content {
+            flex: 1;
+            margin-right: 20px; /* Adjust as needed */
+        }
+        
+        .about-me-photo {
+            flex: 1;
+            max-width: 200px; /* Adjust as needed */
+        }
+        
+        .about-me-photo img {
+            max-width: 100%;
+            display: block;
+            border-radius: 5px;
+            margin-bottom: 20px; /* Adjust as needed */
+        }
+        .resume-button {
+            background-color: #8a2be2;
+            color: #ffffff; /* White color for text */
+            padding: 10px 20px; /* Adjust padding as needed */
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    
+        .resume-button:hover {
+            background-color: #6e1f99; /* Darker shade of purple on hover */
+        }
+        .social-icons {
+            display: flex;
+            align-items: center;
+        }
+        
+        .social-icons a {
+            margin-right: 10px; /* Adjust as needed */
+        }
+        
+        .social-icons img {
+            width: 30px; /* Adjust as needed */
+            height: 30px; /* Adjust as needed */
+        }
+        .project img {
+            width: 300px; /* Set the width to your preferred medium size */
+            height: auto; /* Maintain aspect ratio */
+            display: block;
+            margin: 0 auto 10px; /* Center the image horizontally */
+            border-radius: 5px;
+        }
+        .social-icons a {
+            margin-right: 10px;
+            opacity: 0.7;
+            transition: opacity 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            opacity: 1;
+        }
+        /* Animation for navbar links */
+        .navbar a {
+            color: #fff;
+            margin-right: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            color: #ff8c00; /* Change color on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="navbar-container">
+                <h2 id="t1">Asini Manisha</h2>
+                <nav>
+                    <a href="#about">About Me</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#education">Education and Skills</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#projects">Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#contact">Contact Me</a>
+                </nav>
+            </div>
+            <div class="about-me">
+                <div class="about-me-content">
+                    <h2 id="about">About Me</h2>
+                    <p>Motivated Engineering student pursuing a Bachelor's degree in Computer Science actively seeking internships in the tech industry. Proficient in programming languages with a strong foundation in algorithms and data structures. Eager to apply theoretical knowledge in a practical setting to gain hands-on experience and contribute to cutting-edge technologies. Good communication, teamwork skills and proven ability to adapt quickly acquired through collaborative projects. Committed to continuous learning, collaborating with industry professionals and further developing technical skills.</p>
+                    <h2>Areas of Interest</h2>
+                    <ul>
+                        <li>Web Development</li>
+                        <li>Machine Learning</li>
+                        <li>Data Structures & Algorithms</li>
+                    </ul>
+                    <h2>Connect with Me</h2>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/manishaasini" target="_blank">
+                            <img src="linkedin_icon.jpeg" alt="LinkedIn Profile">
+                        </a>
+                        <a href="https://www.instagram.com/manisha_.asini" target="_blank">
+                            <img src="instagram_icon.jpeg" alt="Instagram Profile">
+                        </a>
+                        <a href="https://github.com/manishaaasini" target="_blank">
+                            <img src="github_icon.jpeg" alt="GitHub Profile">
+                        </a>
+                        <a href="https://leetcode.com/your-leetcode-profile" target="_blank">
+                            <img src="leetcode_icon.jpeg" alt="LeetCode Profile">
+                        </a>
+                    </div><br>
+                    <button onclick="window.location.href='Manisha_Asini_resume.pdf'" class="resume-button">Get My Resume</button><br>
+                </div>
+                <div class="about-me-photo">
+                    <img src="m2.jpg" alt="Your Photo">
+                </div>
+            </div><br>
+        </header>
+        <hr>
+        <section>
+            <h2 id="education">Education and Skills</h2>
+            <h2>Education</h2>
+            <ul>
+                <li>2021-2025: <br>Maturi Vankata Subba Rao Engineering College - Bachelor's degree in Computer Science <br>(CGPA: 9.17)</li>
+                <li>2019-2021:<br> Sri Chaitanya Junior College - MPC Intermediate <br>(Percentage: 98%)</li>
+                <li>2019: <br>St. Paul's High School - Schooling <br>(Percentage: 95%)</li>
+            </ul>
+            <h2>Leadership Experience</h2>
+            <ul>
+                <li>Volunteer at NSS-MVSR unit</li>
+            </ul>
+            <h2>Skills and Interests</h2>
+            <h3>Skills</h3>
+            <ul>
+                <li>Data Structures & Algorithms using C++</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Database System</li>
+                <li>Web Development (HTML, CSS, JS)</li>
+                <li>UI/UX</li>
+                <li>Django</li>
+                <li>AIML (Artificial Intelligence and Machine Learning)</li>
+            </ul>
+            <h3>Interests</h3>
+            <ul>
+                <li>Machine Learning</li>
+                <li>Public Speaking</li>
+                <li>Problem Solving in Leetcode, GFG, HackerRank</li>
+                <li>Reading Blogs</li>
+            </ul>
+            <h3>Training and Courses</h3>
+            <ul>
+                <li>DBMS - Oracle</li>
+                <li>Machine Learning - Stanford University (Coursera)</li>
+                <li>Web Development - FreeCodeCamp</li>
+                <li>C++, Python - Spoken Tutorial</li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h2 id="projects">Projects</h2>
+            <div class="project">
+                <h3>Axiom Parking using IoT</h3>
+                <img src="axiom_parking.jpg" alt="Axiom Parking">
+                <p>Axiom Parking is an IoT project which tells where the parking slot is empty or not which we can check in our mobile so this application whether the parking slot is empty. As the population is increasing this could be very helpful in tracking the parking slot. And we can save so much time as we are not spending so much time waiting for the slot. And this Project is done by using "CISCO PACKET TRACER" using Python.</p>
+                <p><strong>GitHub Link:</strong> <a href="https://github.com/manishaaasini/axiom-parking"></a></a></p>
+            </div>
+            <div class="project">
+                <h3>Malaria Detection using ML</h3>
+                <img src="malaria_detection.png" alt="Malaria Detection">
+                <p>Malaria Detection is a Prediction website which predicts whether the person is infected with malaria or not by taking input a microscopic image of a blood cell. This is done using ML with the help of a Dataset and we trained the model with the dataset so that it predicts accurately and tells how confident it is. We used modules such as Flask, Keras, NumPy, PIL and this is done using Python.</p>
+                <p><strong>GitHub Link:</strong> [Insert Link Here]</p>
+            </div>
+            <div class="project">
+                <h3>Attendance Management System</h3>
+                <img src="attendance_system.png" alt="Attendance Management System">
+                <p> Python script is a simple facial recognition system designed to detect faces in a live video stream, recognize known faces, and update an attendance record accordingly. It utilizes the OpenCV library for computer vision tasks and relies on a custom implementation of facial recognition.The attendance update is likely handled by the update_attendance function, which takes the recognized name as input and performs the necessary operations to mark the person as present.</p>
+                <p><strong>GitHub Link:</strong> [Insert Link Here]</p>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <h2 id="contact">Contact Me</h2>
+            <p>If you've got a project in mind, why not get in touch! Let's work together. You can send me a message by filling this form.</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"  readonly><br>
+                <label for="address">Address:</label><br>
+                <input type="text" id="address" name="address"  readonly><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"  readonly><br><br>
+                <button onclick="window.location.href='manishaasini@gmail.com'" class="resume-button">Submit</button>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
